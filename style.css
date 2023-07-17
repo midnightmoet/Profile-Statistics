@@ -5,4 +5,43 @@ body {
     align-items: center;
     text-align: center;
     height: 100vh;
+    background: aliceblue;
 }
+
+.stats-container h4 {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 400; 
+}
+
+.stats-container {
+    margin: 20px;
+    border: dotted gray;
+    min-width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.icon {
+    font-size: 2rem;
+    color: pink;
+    padding: 10px;
+}
+
+.counter {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 700;
+}
+
+/* responsive stuff */
+
+@media (max-width: 796px) {
+    body {
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+    }  
+}    
